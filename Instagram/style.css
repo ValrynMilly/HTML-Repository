@@ -1,0 +1,125 @@
+.MainContent{
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 5%;
+  display: inline-flex;
+  z-index: 1;
+}
+
+.SignUpServices{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205,205,205);
+  width: 30%;
+  height: 1%;
+  display: bottom;
+}
+
+#logo {
+  width: 60%;
+  height: 12%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+#SignUpText{
+  font-family: Segoe UI;
+  font-weight: 700;
+  color: rgb(205,205,205);
+  width: 70%;
+  font-size: 12pt;
+  margin-left: 15%;
+  margin-top: 0.1%;
+  text-align: center;
+}
+
+button{
+  font-family: Segoe UI;
+  width: 70%;
+  font-weight: 700;
+  margin-left: 15%;
+  background-color: rgb(56, 151, 240);
+  text-align: center;
+  font-size: 10pt;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 25px;
+
+}
+
+.Seperator{
+  display: inline-flex;
+  margin-left: 15%;
+}
+
+#Line1{
+  width: 38%;
+  height: 1%;
+  margin-top: 7%;
+}
+#OR{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#Line2{
+  width: 38%;
+  height: 1%;
+  margin-top: 7%;
+}
+ input{
+   font-family: Segoe UI;
+   font-weight: 300;
+   color: rgb(205,205,205);
+   display: table-column;
+   margin-top: 7pt;
+   justify-content: center;
+   margin-left: 15%;
+   width: 69%;
+   height: 20pt;
+ }
+
+ p{
+   font-family: Segoe UI;
+   color: rgb(205,205,205);
+   font-weight: 300;
+   text-align: center;
+ }
+
+a{
+  font-family: Segoe UI;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+}
+
+.Instagram_LoginLink{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(205,205,205);
+  width: 22%;
+  height: 5%;
+  z-index: 9999;
+  left: 51.5%;
+  top: 73%;
+  position: absolute;
+  display: inline;
+}
+.DownloadServices{
+  text-align: center;
+  width: 30%;
+  height: 10%;
+  z-index: 9999;
+  margin-left: 20%;
+  top: 30%;
+  position: fixed;
+  display: inline-block;
+}
+.FooterContent{
+  position: absolute;
+  z-index: 9999;
+  bottom: 1%;
+  left: 25%;
+  width: 60%;
+  justify-content: center;
+}
